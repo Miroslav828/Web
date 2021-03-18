@@ -1,0 +1,85 @@
+
+<!-- Labels/Grouping
+● Creates a form used for catering reservations
+
+● The form contains multiple elements split into groups
+● Each element should have a label assigned to it
+First group
+● Name of the group should be &quot;Personal data&quot;
+● The first field is for the name
+● The second one is for the email address
+● The third is for the phone number
+Second group
+● Name of the group should be &quot;Location&quot;
+● It should contain fields for:
+○ City
+○ Street
+○ Street number
+
+Third group
+● Name of the group should be &quot;Event info&quot;
+● The first element is dropdown containing the following options:
+○ birthday
+○ wedding (should be selected by default)
+○ company
+● The second element is for getting number of expected guests and it’s
+an input type element
+● Placeholder is a number you choose-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Ketering rezervacije</title>
+</head>
+<body>
+    <form>
+    <fieldset>
+        <legend>Personal Data</legend>
+        <label> Name:
+          <input type="text" name="name" autofocus > 
+          </label>
+          <br>
+        <label> E mail:
+            <input type="email" name="email" required>
+            </label>
+            <br>
+        <label>Phone number:
+            <input type="text" name="telefon">
+        </label>    
+    </fieldset>
+    <fieldset>
+        <legend>Location</legend>
+        <label>City:
+            <input type="text" name="city">
+        </label>
+        <br>
+        <label>Street:
+            <input type="text" name="street">
+        </label>
+        <br>
+        <label>Street nr:
+            <input type="text" name="street nr">
+        </label>
+        <br>
+    </fieldset>
+    
+    <fieldset>
+<legend>Event</legend>
+<select name="event">
+    <option value="birthday">Birthday</option>
+    <option value="Wedding" selected="selected">Wedding</option>
+    <option value="Company">Company</option>
+</select>
+    <label>Number of guests:
+       <input type="number" name="broj gostiju"  placeholder="20">
+    </label>
+
+    </fieldset>
+    
+      <input type="submit" name="Submit" value="SEND">
+    <input type="reset" name="reset" value="Reset">
+    </form>
+    
+</body>
+</html>
