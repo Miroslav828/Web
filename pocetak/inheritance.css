@@ -1,0 +1,17 @@
+.p1, .p2, .p3 {
+  width: 80%;
+  border: 5px solid red;
+  border-radius: 10px;
+  background-color: yellow;
+}
+
+.p2 {
+  width: 700px;
+  border-color: blue;
+}
+
+.p3 {
+  width: 90%;
+  border-color: green;
+}
+/*# sourceMappingURL=inheritance.css.map */

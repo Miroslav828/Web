@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+
+    <style>
+       .div1{
+           width: 95%;
+           background-color: papayawhip;
+           margin: 0 auto;  
+           height: 400px;  
+
+       }
+       .lista {
+           display: block;
+           height: 40px;
+           position: relative;
+           top: 20px;
+           display: block;
+           list-style: none;
+           background-color: orange;
+           width: 95%;
+           margin: 0 auto;
+          padding: 10px;
+
+       }
+       .lista a{
+        text-decoration: none;
+       }
+
+      
+       .menu2:hover .submenu{
+         display: block;
+        
+          
+       }
+       li{
+           position: relative; 
+           float: left;
+           text-decoration: none;
+           padding: 10px;
+       } 
+       .menu2 .submenu{
+          
+           position: absolute;
+        
+           list-style-type: none;
+           margin: 0;
+           padding: 0;
+           overflow: hidden;
+           background-color: pink; 
+           display: none;
+           z-index: 9;
+           top: 100%;
+
+       }
+       .menu2 .submenu a{
+
+           width: 300px;
+           display: block;
+           height: 20px;
+           padding: 5px;
+           margin: 0 auto;
+        text-decoration: none;
+        color: black;
+        
+       }
+       .menu2:hover .submenu {
+            display: block;
+            background-color: gray;
+       }
+       .menu2 .submenu a:hover{
+           display: block;
+           visibility: visible;
+       
+        background-color: white;
+
+       }
+       .clear::before,
+    .clear::after {
+        content: " ";
+        display: table;
+        }
+        .clear::after {
+        clear: both;
+        }
+    
+        .home{
+            
+            width: 50px;
+            background-color: grey;
+            text-align: center;
+
+        }
+        .home:hover{
+            background-color: khaki;
+           
+        }
+        .box{
+        text-align: center;
+        }
+        .box:hover{
+            background-color: khaki; 
+        }
+        .submenu{
+            text-align: left;
+            z-index: 10 ;
+        }
+
+
+    
+        
+    </style>
+</head>
+<body>
+    <h1>Advanced positioning </h1>
+    <div class="div1">
+       
+        <ul class="lista clear"> 
+            <li class="home"> <a href="#">Home</a></li>
+            <li class="box"> <a href="#">Menu 1</a></li>
+            <li class="box menu2"> <a href="#">Menu 2</a>
+                <ul class="submenu">
+                    <li> <a href="#">Sub Menu 1</a></li>
+                    <li> <a href="#">Sub Menu 2</a></li>
+                    <li> <a href="#">Sub Menu 3</a></li>
+                </ul> <!--ubaceno position relative u li-->
+            </li>
+            
+            <li class="box"> <a href="#">Menu 3</a></li>
+        </ul>
+
+
+    </div>
+
+
+</body>
+</html>

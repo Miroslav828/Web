@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormGet</title>
+    <style>
+        div{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            width: 30%;
+            margin: 50px auto;
+            border: solid black 0.5px;
+            padding: 20px 20px;
+        }
+
+        form{
+        
+            margin: 0 auto;
+            background-color: lightgrey ;
+            border-radius: 20px 0 20px 0;
+            padding: 20px;
+            
+        }
+        form input{
+            font-size: 14pt;
+            width: 80%;
+            border: none;
+            box-shadow: 0 0 10px rgba(78, 77, 77, 0.7);
+            margin-left: 33px;
+            border-radius: 10px;
+        }
+        form label{   
+            margin-left: 33px;
+            font-size: 20pt;
+        }
+        h1{
+            width: 80%;
+            font-size: 26pt;
+          text-align: center;
+            color: grey;
+            border-bottom: solid 0.5px;
+            margin: 0px auto;
+            padding-top: 30px;
+            padding-bottom: 10px;
+        }
+        span {
+            font-size: 26pt;
+         
+            color: yellow;
+        }
+        .submit{
+            font-size: 14pt;
+            width: 80%;
+            background-color: red;
+            color: white;
+            margin-left:33px;
+            border:solid red;
+            border-radius: 10px;
+        }
+       
+
+        input:hover {
+        cursor: pointer;
+        }
+        .submit:hover {
+        cursor: url("dugme.jpg"), auto;
+        }
+    
+
+    </style>
+
+</head>
+
+<body>
+    <div>
+    <form class="forma">
+        <h1> Form<span>Get</span></h1>
+        <br><br>
+        <label for="fname">Full Name</label><br>
+        <input type='text' id='fname' name="Full name" placeholder=" Full name"><br><br>
+        <label for="email">E mail</label> <br>
+        <input type='text' id='email' name="E mail" placeholder=" E mail"><br><br>
+        <label for="cnumber">Contact number</label> <br>
+        <input type='text' id='cnumber' name="Contact number" placeholder=" Contact number"><br><br>
+        <label for="address">Address</label> <br>
+        <input type='text' id='address' name="Address" placeholder=" Address"><br><br>
+        <br>
+        <button class="submit" type="submit" value="submit">Submit</button>
+        <br><br>
+    </form>
+</div>
+
+
+</body>
+</html>

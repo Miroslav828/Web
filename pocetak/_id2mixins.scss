@@ -1,0 +1,7 @@
+@mixin nekimix {
+    text-shadow: 4px 4px 2px rgba(150, 150, 150, 1);
+}
+@mixin box {
+-webkit-box-shadow: -24px 23px 38px 14px #000000; 
+box-shadow: -24px 23px 38px 14px #000000;
+}

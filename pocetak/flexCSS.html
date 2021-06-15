@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+  .parent{
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: cornflowerblue;
+    width: 80%;
+    height: 300px;
+    color: white;
+    margin: 0 auto;
+    
+    
+ 
+}
+.first{
+    display: flex;
+    flex: 1;
+    background-color: darkblue;
+    align-items: center;
+    justify-content: center;
+    
+}
+.second{
+    display: flex;
+    flex: 1;
+    background-color: darkmagenta;
+    align-items: center;
+    justify-content: center;
+   
+}
+.third{
+    display: flex;
+    flex: 1;
+    background-color: darkred;
+    align-items: center;
+    justify-content: center;
+    
+  
+}
+.fourth{
+    display: flex;
+   
+    background-color: green;
+    flex-basis: 67%;
+    align-items: center;
+    justify-content: center;
+ 
+}
+.poddiv{
+display: flex;
+flex-basis: 33%;
+flex-direction: column-reverse;
+}
+ 
+    </style>
+</head>
+<body>
+    <main class="parent">
+    <div class="poddiv">
+        <div class="first ">1</div>
+        <div class="second ">2</div>
+        <div class="third ">3</div>
+    </div>
+    <div class="fourth">4</div>
+     </main>
+</body>
+</html>

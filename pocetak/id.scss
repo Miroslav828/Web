@@ -1,0 +1,36 @@
+$font-stack: Helvetica, Sans-Serif;
+$title-font: Roboto-Italic;
+$prime-color: pink;
+$second-color: violet;
+$color: red;
+$third-color: blue;
+
+
+
+.container{
+
+    width: 80%;
+    background-color: $prime-color;
+    font: $font-stack;
+    margin: 0 auto;
+}
+.title{
+    background-color: $second-color;
+}
+table{
+    background-color: $third-color;
+    td{
+        font-style: italic;
+    }
+    .even{
+        background-color: green;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    #important{
+        color: white;
+        font-size: 30px;
+    }
+}
+
+

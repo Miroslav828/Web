@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>glavna vezba</title>
+
+    <style>
+        .header{
+            width: 960px;
+            margin: 0 auto;
+           
+        }
+        .glavni{
+            position: relative;
+        
+            width: 960px;
+           margin: 0 auto;
+         
+        }
+        .lista{
+         
+           top: 50px;
+           margin: 0 auto;
+          
+            background-color: red;
+            color: white;
+            height: 40px;
+           list-style-type: none;              
+        }
+        li{
+           float: right;
+           padding: 10px;
+           width: 80px;
+           height: 20px;
+           text-align: center;
+       } 
+       .lista a{
+           display: block;
+           text-decoration: none;
+           color: white;
+       }  
+       .lista a:hover{
+           display: block;
+           background-color: gray;
+       }
+       .slikaCss{  
+           float: left;
+           background-color: rgb(51, 95, 238);
+           width: 480px;
+           height: 500px;
+               
+       }
+       .slikaHtml{  
+            float: left;
+           background-color: rgb(233, 137, 12);
+           width: 480px;
+           height: 500px;
+       }
+       img{
+           width: 150px;
+           height: 150px;
+           
+       }
+    
+       .css{
+          
+           padding: 175px 0 175px 330px;  
+       }
+       .html{
+           
+           padding: 175px 330px 175px 0;   
+       }
+       .okvir{
+           width: 300px;
+           height: 200px;
+           margin: 10px;
+           font-size: 60px;
+           
+           text-align: center;
+           color: white;
+       }
+      
+    
+       .crveni{
+           background-color: red;
+           float:left
+       }
+       .plavi{
+           background-color: blue;
+           float: left;
+       }
+       .zuti{
+           background-color:orange;
+           float: left;
+       }
+       .zeleni{
+           background-color:green;
+           float: left;
+       }
+       .text{
+           float:left;
+           width: 300px;
+           height: 250px;
+           margin: 5px  0 5px 10px;
+           padding: 5px;
+           background-color: orange;
+           color: black;
+       }
+       .par{
+        width: 300px;
+        height: 200px;
+        float: left;
+        margin: 10px;
+       }
+       div.first{
+           clear:left
+       }
+       .footer{
+        position:absolute;
+        top: 1930px;
+           width: 100%;
+           height: 30px;
+         
+           
+           background-color: blue;
+           color: white;
+       }
+       .footext{
+          margin: 0;
+          padding: 5px 200px;
+           font-size: 20px;
+           text-align: left;
+       }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+    <ul class="lista" >
+        <li ><a href="#">Blog</a></li>
+        <li ><a href="#">Contact</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Home</a></li>
+    </ul>
+</header>
+    <div class="glavni">
+ 
+
+   <div class="slikaCss">
+       <img class="css" src="./CSS.png">
+   </div>
+   <div class="slikaHtml">
+       <img class="html" src="./HTML.png">
+    </div>
+ 
+
+    <div class="okvir crveni">
+    <div>
+        <p>300 x 200</p>
+    </div>
+
+    </div>
+    <div class="okvir plavi">
+        <p>300 x 200</p> <!--dispay flex + justify content center, da bude u sredini 300 x 200 -->
+    </div> 
+    <aside class="text">
+        <p>Rebuilding slack.com</p><hr>
+        <p>Zasto bootcamp format?</p><hr>
+        <p>React - prozor u svet web aplikacija</p><hr>
+        <p>Najvece zablude o programerima u Srbiji</p><hr>
+    </aside>
+    <p class="par first">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae ex id ipsum elementum accumsan. 
+        Donec congue vitae mauris eu congue. Donec sit amet mauris sed nisl viverra tempus in tempor eros.  ipsum dolor sit amet, 
+        consectetur adipiscing elit. Suspendisse vitae ex id ipsum. sed nisl viverra tempus in tempor eros.  ipsum dolor sit amet, 
+        consectetur adipiscing elit. Suspendisse vitae ex id ipsum
+    </p>
+    <p class="par second">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae ex id ipsum elementum accumsan. 
+        Donec congue vitae mauris eu congue. Donec sit amet mauris sed nisl viverra tempus in tempor eros.  ipsum dolor sit amet, 
+        consectetur adipiscing elit. Suspendisse vitae ex id ipsum. sed nisl viverra tempus in tempor eros.  ipsum dolor sit amet, 
+        consectetur adipiscing elit. Suspendisse vitae ex id ipsum
+    </p>
+
+    <div class="okvir zuti first">
+        <p>300 x 200</p>
+    </div>
+    <div class="okvir zeleni">
+        <p>300 x 200</p>
+    </div>
+    <div class="okvir crveni">
+        <p>300 x 200</p>
+    </div>
+    <p class="par third">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae ex id ipsum elementum accumsan. 
+        Donec congue vitae mauris eu congue. Donec sit amet mauris sed nisl viverra tempus in tempor eros.  ipsum dolor sit amet, 
+        consectetur adipiscing elit. Suspendisse vitae ex id ipsum. sed nisl viverra tempus in tempor eros.  ipsum dolor sit amet, 
+        consectetur adipiscing elit. Suspendisse vitae ex id ipsum
+    </p>
+    <p class="par fourth">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae ex id ipsum elementum accumsan. 
+        Donec congue vitae mauris eu congue. Donec sit amet mauris sed nisl viverra tempus in tempor eros.  ipsum dolor sit amet, 
+        consectetur adipiscing elit. Suspendisse vitae ex id ipsum. sed nisl viverra tempus in tempor eros.  ipsum dolor sit amet, 
+        consectetur adipiscing elit. Suspendisse vitae ex id ipsum
+    </p>
+    <p class="par fifth">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae ex id ipsum elementum accumsan. 
+        Donec congue vitae mauris eu congue. Donec sit amet mauris sed nisl viverra tempus in tempor eros.  ipsum dolor sit amet, 
+        consectetur adipiscing elit. Suspendisse vitae ex id ipsum. sed nisl viverra tempus in tempor eros.  ipsum dolor sit amet, 
+        consectetur adipiscing elit. Suspendisse vitae ex id ipsum
+    </p>
+    <div class="okvir plavi">
+        <p>300 x 200</p></div>
+    <div class="okvir zuti ">
+        <p>300 x 200</p>
+    </div>
+    <div class="okvir zeleni">
+        <p>300 x 200</p>
+    </div>
+    <p class="par sixth">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae ex id ipsum elementum accumsan. 
+        Donec congue vitae mauris eu congue. Donec sit amet mauris sed nisl viverra tempus in tempor eros.  ipsum dolor sit amet, 
+        consectetur adipiscing elit. Suspendisse vitae ex id ipsum. sed nisl viverra tempus in tempor eros.  ipsum dolor sit amet, 
+        consectetur adipiscing elit. Suspendisse vitae ex id ipsum
+    </p>
+    <p class="par seventh">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae ex id ipsum elementum accumsan. 
+        Donec congue vitae mauris eu congue. Donec sit amet mauris sed nisl viverra tempus in tempor eros.  ipsum dolor sit amet, 
+        consectetur adipiscing elit. Suspendisse vitae ex id ipsum. sed nisl viverra tempus in tempor eros.  ipsum dolor sit amet, 
+        consectetur adipiscing elit. Suspendisse vitae ex id ipsum
+    </p>
+    <p class="par eighth">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae ex id ipsum elementum accumsan. 
+        Donec congue vitae mauris eu congue. Donec sit amet mauris sed nisl viverra tempus in tempor eros.  ipsum dolor sit amet, 
+        consectetur adipiscing elit. Suspendisse vitae ex id ipsum. sed nisl viverra tempus in tempor eros.  ipsum dolor sit amet, 
+        consectetur adipiscing elit. Suspendisse vitae ex id ipsum
+    </p>
+    
+</div>
+
+
+
+
+
+
+</body>
+<div class="footer"> <!--position absolute-->
+    <p class="footext"> @BitStudent</p>
+</div>
+</html>

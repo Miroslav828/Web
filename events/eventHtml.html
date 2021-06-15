@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventHTML</title>
+    <style>
+   div {
+       width: 50%;
+       height: 200px;
+       background-color: white;
+       text-align: center;
+       margin: 20px auto;
+   }
+   .div{
+       background-color:rgb(45,62,79);
+   }
+   .button-1 {
+       background-color:#C1392B;
+       width: auto;
+       height: auto;
+       margin-top: 20px;
+       color: white;
+   }
+   .button-2 {
+       background-color:rgb(255,191,40);
+       width: auto;
+       height: auto;
+       margin-top: 20px;
+       color: white;
+   }
+
+    </style>
+
+</head>
+<script>
+    var isOn = true;
+  
+    function changeBackground(){
+        var divNode = document.querySelector('div');
+        divNode.classList.toggle('div');
+
+    }
+    var handler = changeBackground;
+    function onSwitchStatusHandler (){
+        var turnNode = document.querySelector('.button-2');
+        if (isOn){
+            turnNode.setAttribute('value', 'Turn On');
+            handler = function(){};
+            isOn = false;
+        }
+        else{
+            turnNode.setAttribute('value', 'Turn Off');
+            handler = changeBackground;
+            isOn = true;  
+        }
+    }
+  
+
+    
+</script>
+
+<div class="div">
+    <input class="button-1" type="button" value="Toggle Background" onclick="handler()">
+    <br>
+    <input class="button-2" type="button" value="Turn Off" onclick = 'onSwitchStatusHandler()' >
+</div>
+<body>
+    
+</body>
+</html>

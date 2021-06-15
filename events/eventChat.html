@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <style>
+        div {
+            width: 100%;
+            background-color: burlywood;
+        }
+
+        textarea {
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+
+        .text {
+
+            width: 400px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+        }
+
+        .button {
+            width: 200px;
+            background-color: red;
+            color: white;
+            margin-bottom: 10px;
+            margin-left: 10px;
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <textarea rows="40" cols="85"></textarea>
+        <br>
+        <input class="text" type="text" value="" >
+        <input class="button" type="button" value="Send">
+
+    </div>
+    <script>
+        var textNode = document.querySelector('.text');
+        var textareaNode = document.querySelector('textarea');
+        var sendNode = document.querySelector('.button');
+
+        console.log(textNode.textContent);
+       console.log(textareaNode.textContent);
+        sendNode.onclick = function () {
+
+            textareaNode.textContent += textNode.value + "\n";
+            textNode.value = "";
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+<!-- Home Page content
+● Create a page with two columns
+● Width of the left column is 300px
+● Right column stretches to cover the rest of the screen
+● Left column content
+○ Logo image with height set to 250px
+○ Under the logo, there should be a list of links
+○ One of the links should be &quot;Contact&quot;
+○ The link should link to &quot;./contact.html&quot; page
+● Right column content
+● There should be two posts in form of groups
+● The first group content:
+○ Title
+○ Embedded YouTube video
+● The second group content:
+○ Title
+○ Video (HTML5) that you will find on the web
+
+Contact Page content
+● Embedded Google Map on the page
+● Link for getting back to the “Home” page-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+</head>
+<body>
+    <table width='100%'> 
+     <tr valing='top'>
+      <td bgcolor="red"  width="300px">
+<img src="https://blog.hubspot.com/hubfs/image8-2.jpg" height="250px" alt="logo">
+<ol>
+    <li> <a href="http://www.beograd.rs/">Beograd </a></li>
+    <li> <a href="https://www.ni.rs/">Nis </a></li>
+    <li> <a href="./contact1.html" >Contact</a>  </li>
+</ol>
+</td>
+<td bgcolor="blue">
+    <div>
+        <h1>sledeci video</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/FKjHswW5Yr8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div>
+        <h1>novi naslov</h1>
+        <video width="320" height="240" controls>
+            <source src="movie.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+          Your browser does not support the video tag.
+          </video>
+
+    </div>
+</td>
+
+</tr> 
+</table>
+</body>
+</html>

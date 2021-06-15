@@ -1,0 +1,106 @@
+$hblue: #293D4F;
+$hGreen:#1ca179;
+
+$h1-font: Lato, Tahoma, sans-serif;
+
+
+* {
+    box-sizing: border-box;
+    font-family: $h1-font;
+    margin: 0px;
+    padding: 0px;
+}
+.colorHeader{
+    background-color: $hblue ;
+}
+.header-main {
+    background-color: $hGreen;
+    img{
+        display: block;
+        margin: 0px auto;
+    }
+    p {
+        color: white;
+        font-weight: bold;
+        text-align: center;
+    }
+}
+h1 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.star{
+    font-size: larger;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.star-white{
+    @extend .star;
+    color: white;
+}
+.star-black{
+    @extend .star;
+    color:black; 
+}
+.line {
+    display: inline-block;
+    height: 10px;
+    width: 40px;
+    border-top: 2px solid black;
+}
+.line-white {
+    @extend.line;
+    border-color: white;
+}
+
+.crna{
+   background-color: black; 
+}
+
+.portfolio {
+    width: 75%;
+    margin:0 auto 80px auto;
+    img {
+    width: 100%;
+    margin: 10px auto;
+  }
+}
+.about{
+    background-color: $hGreen;
+    color: white;
+    padding: 20px;
+    margin-bottom: 40px;
+    text-align: left;
+  }
+
+  .contact{
+      width: 90%;
+  }
+  .green-send{
+    background-color: $hGreen;
+  }
+ 
+  .icons {
+    display: inline-block;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: white;
+    border-width: 2px;
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    line-height: 45px;
+  }
+  
+  footer {
+    text-align: center;
+    color: white;
+    background-color: $hblue;
+    margin-top: 20px;
+  }
+  
+
+

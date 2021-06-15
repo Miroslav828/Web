@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAaA,AAAA,UAAU,CAAA;EACN,KAAK,EAdG,GAAG;EAeX,MAAM,EAAE,OAAO;CAClB;;AAED,AAAA,EAAE,CAAA;EAZE,WAAW,EAAE,GAAG,CAAC,GAAG,CAAC,GAAG,CAAC,OAAsB;CAclD;;AACD,AAAA,OAAO,EAAE,MAAM,CAAA;EAZf,kBAAkB,EAAE,4BAA4B;EAChD,UAAU,EAAE,4BAA4B;EAapC,gBAAgB,EAtBR,MAAM;CAuBjB",
+    "sources": [
+        "id2.scss"
+    ],
+    "names": [],
+    "file": "id2.css"
+}

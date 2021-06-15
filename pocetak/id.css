@@ -1,0 +1,30 @@
+.container {
+  width: 80%;
+  background-color: pink;
+  font: Helvetica, Sans-Serif;
+  margin: 0 auto;
+}
+
+.title {
+  background-color: violet;
+}
+
+table {
+  background-color: blue;
+}
+
+table td {
+  font-style: italic;
+}
+
+table .even {
+  background-color: green;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+table #important {
+  color: white;
+  font-size: 30px;
+}
+/*# sourceMappingURL=id.css.map */

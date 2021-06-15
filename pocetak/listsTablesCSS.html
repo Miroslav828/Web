@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .kruzic{
+            list-style-type: circle;
+        }
+        .kvadrat{
+            list-style-type: square;
+        }
+        .upper{
+            list-style-type: upper-alpha;
+        }
+        .rimski{
+            list-style-type: upper-roman;
+        }
+        .slike1{
+            list-style-image: url(./dugme.jpg);
+            width: 200px;
+        }
+        .slike2{
+            list-style-image: url(./dugme.jpg);
+            width: 200px;
+            list-style-position: inside;
+            
+        }
+        .tabela{
+            margin: 0 auto;
+            border-spacing: 0px;
+            border: solid;
+            border-width: 0.5px;
+            padding: 10px;
+        }
+        .prvired th{
+            background-color: red;
+        }
+        .img img {
+            height: 100px;
+        }
+        td{
+            padding: 10px 0;
+        }
+        tr:nth-child(odd){
+            background-color: lightgrey;
+        }
+        tr:hover{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <ul class="kruzic">
+        <li>Engleski</li>
+        <li>Italijanski</li>
+        <li>Spanski</li>
+    </ul>
+    <ul class="kvadrat">
+        <li>FInski</li>
+        <li>Svedski</li>
+        <li>Norveski</li>
+    </ul>
+    <ol class="upper">
+        <li>Kineski</li>
+        <li>Japanski</li>
+        <li>Arapski</li>
+    </ol>
+    <ol class="rimski">
+        <li>Nemacki</li>
+        <li>Madjarski</li>
+        <li>Srpski</li>
+    </ol>
+
+    <ul class="slike1">
+        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis, ipsum quis gravida porttitor, lectus massa suscipit orci, at mattis mauris elit ac tellus. Suspendisse consectetur vitae mauris non euismod. Nullam at placerat dolor. </li>
+        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis, ipsum quis gravida porttitor, lectus massa suscipit orci, at mattis mauris elit ac tellus. Suspendisse consectetur vitae mauris non euismod. Nullam at placerat dolor. </li>
+        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis, ipsum quis gravida porttitor, lectus massa suscipit orci, at mattis mauris elit ac tellus. Suspendisse consectetur vitae mauris non euismod. Nullam at placerat dolor. </li>
+    </ul>
+    <ul class="slike2">
+        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis, ipsum quis gravida porttitor, lectus massa suscipit orci, at mattis mauris elit ac tellus. Suspendisse consectetur vitae mauris non euismod. Nullam at placerat dolor. </li>
+        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis, ipsum quis gravida porttitor, lectus massa suscipit orci, at mattis mauris elit ac tellus. Suspendisse consectetur vitae mauris non euismod. Nullam at placerat dolor. </li>
+        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sagittis, ipsum quis gravida porttitor, lectus massa suscipit orci, at mattis mauris elit ac tellus. Suspendisse consectetur vitae mauris non euismod. Nullam at placerat dolor. </li>
+    </ul>
+
+    <table class="tabela">
+        <tr class="prvired">
+            <th>Name</th>
+            <th>Image</th>
+            <th>RAM</th>
+            <th>Camera</th>
+            <th>Internal memory</th>
+        </tr>
+        <tr>
+            <td>Samgusg S8+</td>
+            <td class="img"><img  src="https://images.samsung.com/is/image/samsung/p5/rs/smartphones/galaxy-s8/images/gallery/galaxy-s8_gallery-color_normal-c1-01.jpg?$ORIGIN_JPG$" alt="Samsung"></td>
+            <td>6GB</td>
+            <td>12Mpx</td>
+            <td>128GB</td>
+        </tr>
+        <tr>
+            <td>Iphone X</td>
+            <td class="img"><img  src="https://www.telenor.rs/tmedia/webshop/products/1030/color_images/1030_3_img1.jpg" alt="Iphone"> </td>
+            <td>4GB</td>
+            <td>12Mpx</td>
+            <td>128GB</td>
+        </tr>
+        <tr>
+            <td>LG G6</td>
+            <td class="img"><img src="https://images.samsung.com/is/image/samsung/p5/rs/smartphones/galaxy-s8/images/gallery/galaxy-s8_gallery-color_normal-c1-01.jpg?$ORIGIN_JPG$" alt="Samsung"></td>
+            <td>6GB</td>
+            <td>12Mpx</td>
+            <td>128GB</td>
+        </tr>
+        <tr>
+            <td>Samgusg S8+</td>
+            <td class="img"><img src="https://images.samsung.com/is/image/samsung/p5/rs/smartphones/galaxy-s8/images/gallery/galaxy-s8_gallery-color_normal-c1-01.jpg?$ORIGIN_JPG$" alt="Samsung"></td>
+            <td>6GB</td>
+            <td>12Mpx</td>
+            <td>128GB</td>
+        </tr>
+        <tr>
+            <td>Iphone X</td>
+            <td class="img"><img  src="https://www.telenor.rs/tmedia/webshop/products/1030/color_images/1030_3_img1.jpg" alt="Iphone"> </td>
+            <td>4GB</td>
+            <td>12Mpx</td>
+            <td>128GB</td>
+        </tr>    
+    </table>
+
+</body>
+</html>

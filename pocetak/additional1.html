@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+div {
+    font-family: sans-serif;
+    font-size: 10pt;
+    color: navy;
+    background-color: #eee ;
+    margin: 0;
+}
+.naslov{
+    font-size: 26pt;
+    font-variant: small-caps;
+    text-align: right;
+    background-color: navy;
+    color: #ccf;
+    padding: 4px 10px 4px 10px ;
+    margin-top: 0;
+    border: solid;
+    border-width: 8px 0px 8px 0px;
+    border-color: #88c;
+}
+p {
+    width: 80%;
+    margin-top: 0%;
+    margin: auto;
+    margin-bottom: 10pt;
+    padding-left: 10px;
+    border: solid;
+    border-width: 0 0 0 10px;
+    border-color: lightblue;
+}
+.podnaslov{
+    width: 90%;
+    border: dotted;
+    border-width: 0 0 5px 0;
+    border-color: #88d;
+
+}
+.DIVblok{
+    text-align: center;
+    font-weight: bold;
+    width: 450px;
+    border: double;
+    border-width: 15px;
+    padding: 10px;
+    margin: 10pt auto ;
+
+}
+.komentar{
+    width: 30%;
+    text-align: left;
+    font-size: 80%;
+    color: red;
+    background-color: lightyellow;
+    border-style: solid;
+    border-color: red;
+    border-width: 2px 4px 4px 2px;
+    padding: 10pt;
+    margin-right: 0px;
+}
+.tabela{
+    margin: 10pt auto 10pt auto;
+    border: solid;
+    border-color: black;
+    border-width: 4px;
+    background-color: #fde;
+}
+th {
+    color: blanchedalmond;
+    background-color: rgb(64, 47, 109);
+    margin: 3px 9px;
+    padding: 9px 3px;
+}
+td {
+    padding: 9px 3px;
+    background-color: #fde;
+    border-left: 1px solid #a88;
+    border-top: 2px solid black;
+}
+
+
+.lista{
+    width: 70%;
+    margin: 10pt auto 10pt auto;
+    font-family: serif ;
+
+}
+a:link{
+   
+    font-weight: bold;
+    text-decoration: none;
+    color: red;
+
+}
+    </style>
+
+</head>
+<body>
+    <div>
+    <h1 class="naslov">Glavni naslov</h1>
+    <p>Cela strana teba da ima font sans-serif, boje navy i boju pozadine #eee. Iskljucite marginu stranice</p>
+    <p>Glavni naslov teba da bude velicine 26pt, tipa small-caps sa tekstom poravnatim udesno. Boja pozadine navy, a boja teksta #ccf. Unutrasnje margine po vertikali treba da budu 4px, a leva i desna po 10px. Gornju marginu treba iskljuciti. Sa donje i gornje strane treba da postoji border debljine 8px, boje #88c.  </p>
+    <p>Svi pasusi u tekstu treba da budu sirine 80%. GOrnja margina ne postoji, a donja je jednaka velicini fonta. Pasus treba da bude centriran kao blok, a tekst u njemu poravnat po obe margine. Pasusi sa leve strane imaju svetlo-plavu liniju debljine 10px, a tekst je odvojen od linije za isto toliko. </p>
+
+    <p class="komentar">Komentar (aside) treba da bude sirine 30%, s tim sto je ceo poravnat po desnoj strani (dok je teskt unutar komentara poravnat po levoj strani). Unutrasnje margina treba da bude velicine fonta, a sam tekst velicine 80% od velicine fonta kakva je inace. Desna margina treba da bude 5px. Okvir treba da bude crvene boje, debljine 2 px, ali dole i desno 4px. Boja pozadine treba da bude svetlo zuta, a boja teksta ista kao boja okvira.</p>
+    <p>Podnaslov treba da ima samo donji okvirdebljine 5px, tackaste linije, boje #88d. Njegova sirina treba da bude 90%. </p>
+    <h2 class="podnaslov">Podnaslov</h2>
+    <p>Napravite tabelu kao na slici, tabela treba da bude postavljena na sredini, bez podesavanja sirine. Gornja i donja margina treba da budu jednake velicini fonta. Okvir oko cele tabele treba da bude crne boje, debljine 4px. Boja pozadine za tabelu treba da bude #fde. vertikavni okviri unutar tabele treba da budu 1px, boje #a88, a horizontalni crne boje debljine 2 px. Celije tabele treba da imaju vertikalne unutrasnje margine od 3px i horizontalne od 9px.</p>
+
+    <table class="tabela">
+        <tr>
+            <th>User</th>
+            <th>Ime</th>
+            <th>Prezime</th>
+         </tr>
+         <tr>
+             <td>Joca</td>
+             <td>Jovan</td>
+             <td>Canic</td>
+         </tr>
+         <tr>
+            <td>mitke</td>
+            <td>Dejan</td>
+            <td>Mitrovic</td>
+        </tr>
+        <tr>
+            <td>aniche</td>
+            <td>Ana</td>
+            <td>Radic</td>
+        </tr>
+    </table>
+
+    <p>Modifikujte tabelu tako da prvi red izgleda kao zaglavlje</p>
+
+    <div class="DIVblok">
+        DIV blok treba da bude na sredini, tekst centriran i podebljan. Gornja i donja margina su velicine fonta. Ukupna sirina bloka treba da bude 450px. Ovo treba da postignete znajuci da je debljina okvira 15px, a unutrasnja margina 10px. Za potrebe ovog zadatka nemojte koristiti atribut box-sizing
+    </div>
+
+    <p>Konacno treba da napravite listu linkova. Na slici mozete da vidite kako lista treba da izgleda. Cela lista treba da bude sirine 70% i na sredini.Gornja i donja margina su velicine fonta. Font stavki treba da bude tipa serif i to kurzivan. Link treba da bude podebljan, crvene boje i bez podvlacenja. Ovde su date adrese linkova.</p>
+    
+    <ul class="lista">
+        <li>HTML: <a href="Osnovna HTML tabela" >Osnovna HTML tabela</a></li>
+        <li>CSS: <a href="CSS formatiranje tabela">CSS formatiranje tabela</a></li>
+        <li>CSS: <a href="CSS okviri">CSS okviri</a></li>
+    </ul>
+    <p> <b>Cestitamo, probili ste se do kraja zadatka!</b></p>
+</div>
+</body>
+
+</html>

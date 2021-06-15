@@ -1,0 +1,304 @@
+
+
+* {
+box-sizing: border-box;
+margin: 0;
+}
+
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    width: 100%;
+}
+.logo{
+   
+    text-align: center;
+    margin-top: 20px;
+}
+.logo p {
+    display: inline-block;
+    padding: 0 10px;
+    
+    font-size: 25px;
+    font-weight: bolder;
+}
+.build {
+    border-top: 5px solid grey;
+    border-bottom: 5px solid grey;
+    border-left: 5px solid grey;
+    color: orangered
+}
+.estate{
+    color: grey;
+}
+
+nav ul {
+    width: 100%;
+    margin-top: 8px;
+    padding: 5px 0;
+}
+nav {
+    width: 95%;
+    margin: 0 auto;
+}
+
+nav ul li {
+    background-color: #81c3f5;
+    text-align: center;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    width:100%;
+    font-size: 12px;
+    font-weight: bold;
+}
+.naslov {
+    width: 100%;
+    background: url("./CSS Project Specification/assets/images/banner3.jpg") no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 100px 80px 40px;
+}
+.naslov h1 {
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    margin: 0;
+    font-weight: normal;
+    font-size: 24px;
+}
+.naslov a {
+    display: inline-block;
+    margin: auto;
+    padding: 10px 30px;
+    background-color: #0a416d;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 11px;
+}
+
+
+section {
+    text-align: center;
+}
+
+section article {
+    text-align: left;
+}
+
+section h1 {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 500;
+    color: lightblue; 
+}
+
+.prvideo {
+    width: 80%;
+    margin: 0 auto;
+}
+article {
+    color: grey;
+}
+
+article q {
+    line-height: 28px;
+    font-size: 14px;
+}
+
+article ul {
+    list-style-image: url('./CSS Project Specification/assets/images/arrow_bullet.png');
+    list-style-position: inside;
+    margin-bottom: 30px;
+}
+
+article ul li {
+    line-height: 35px;
+    font-size: 14px;
+}
+.slika1 {
+    width: 80%;
+}
+
+
+.drugideo{
+        width: 80%;
+        margin: 0 auto;
+}
+.drugideo img{
+    width: 25%;
+    border-radius: 100%;
+    border: solid white;
+
+}
+
+.prviDiv, .drugiDiv, .treciDiv {
+    padding: 20px 20px;
+    background-color: #81c3f5;
+   
+}
+.okvir {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+.WillDiv, .JenniferDiv, .SelenaDiv{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+    flex-direction: row;
+   
+
+}
+
+.zeleno {
+    height: 200px;
+    float: left;
+   width: 50%;
+    background-color: #3add9a;
+    padding: 50px;
+    color: white;
+
+}
+.zeleno img{
+    width: 20px;
+    height: 20px; 
+}
+
+.pink {
+    height: 200px;
+    width: 50%;
+    float: left;
+    background-color: #fc5282;
+    padding: 70px;
+    color: white;
+
+
+}
+.plavo {
+    height: 200px;
+    width: 50%;
+    float: left;
+    background-color: blue;
+    padding: 70px;
+    color: white;
+}
+.svetloplavo{
+    height: 200px;
+    width: 50%;
+    float: left;
+    background-color: lightblue;
+    padding: 50px;
+    color: white;
+}
+
+
+
+.connect img{
+    width: 20px;
+    height: 20px;
+}
+
+.svetloplavo img{
+    width: 100px;
+    height: 100px;
+}
+
+
+.mapa{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+input {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 20px;
+    font-size: 20px;
+    border: 2px solid grey;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 20px;
+    font-size: 20px;
+    border: 2px solid grey;
+}
+
+input[type = "submit"] {
+    width:32%;
+    max-width: 150px;
+    padding: 10px;
+    background-color: orangered;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    
+}
+
+.form {
+  padding: 0 20px;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 35px 0;
+  }
+  
+  footer ul {
+    margin-bottom: 35px;
+  }
+  
+  footer li {
+    display: inline-block;
+  }
+  
+  footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+  }
+  footer p {
+    margin: 0;
+    color: white;
+    font-size: 14px;
+  }
+
+
+
+
+  @media screen and (min-width: 768px) and (max-width: 1199px){
+
+  }
+
+
+
+
+  @media screen and (min-width: 1200px) {
+
+  }

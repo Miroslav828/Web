@@ -1,0 +1,15 @@
+.container {
+  width: 80%;
+  margin: 0, auto;
+}
+
+h1 {
+  text-shadow: 4px 4px 2px #969696;
+}
+
+#footer, .title {
+  -webkit-box-shadow: -24px 23px 38px 14px #000000;
+  box-shadow: -24px 23px 38px 14px #000000;
+  background-color: yellow;
+}
+/*# sourceMappingURL=id2.css.map */

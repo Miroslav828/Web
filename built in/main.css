@@ -1,0 +1,16 @@
+ul {
+    background-color: lightblue;
+    width: 80%;
+    color: black;
+    margin: 0 auto 20px auto;
+}
+.second {
+    background-color: lime;
+}
+.lists {
+    background-color: yellow;
+
+}
+.lastList{
+    background-color: pink;
+}
